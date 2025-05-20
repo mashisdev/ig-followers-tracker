@@ -22,6 +22,23 @@ project/
 └── README.md
 ```
 
+## 🧠 How It Works
+
+The script:
+
+1. Parses the followers and following lists.
+2. Compares both to determine mutual and one-sided relationships.
+3. Prints the results to the console.
+4. Saves a structured summary in a `result.json` file with the following format:
+
+```json
+{
+  "mutual_followers": ["username1", "username2"],
+  "only_followers": ["username3"],
+  "only_following": ["username4"]
+}
+```
+
 ## ▶️How to Use
 
 1. Open Instagram in a web browser and log in to your account.  
